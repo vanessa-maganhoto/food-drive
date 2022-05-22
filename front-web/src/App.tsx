@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Home from './Home';
 import Navbar from './Navbar';
+import RoutesBrowser from './RoutesBrowser';
+
 
 function App() {
   return (
     <>
-     <Navbar />
-     <Home />
+     <RoutesBrowser />
     </>
   );
 }
