@@ -1,3 +1,4 @@
+import './styles.css'
 
 import { Product } from "./types"
 
@@ -19,7 +20,7 @@ export default function ProductCard( { product }: Props ){
     return(
         <div className="order-card-container">
             <h3 className="order-card-title">
-                {product.name}
+                {product.name} 
             </h3>
             <img 
                 src={product.imageUri} 
